@@ -1,0 +1,19 @@
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header-title {
+    font: 1em sans-serif;
+    color: #000;
+}
+
+.container {
+}
+.add-task {
+}
+.list {
+}
