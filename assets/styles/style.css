@@ -1,34 +1,25 @@
 
-
-
-
 .container {
 
     display: flex;
     flex-direction: column;
     align-content: center;
 }
-.add-task {
+input{
+padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid  rgb(210, 88, 223);;
+    margin-right: 10px;
 }
-.add-button{
+button{
     background-color: rgb(210, 88, 223);
     font-family: emoji;
     font-size: large;
+    border-radius: 5px
 }
 button:hover {
     background-color: #218838;
 }
-.container-input{
-    font-size: large;
-}
-.list {
-    list-style: none
-}
-/* ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-} */
 
 .header-title {
     align-self: center;
@@ -40,9 +31,6 @@ button:hover {
 .input-container {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center; */
 }
 
 li.completed {
